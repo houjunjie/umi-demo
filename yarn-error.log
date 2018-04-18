@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add jsrsasign -D
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  9.10.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "umi dev",
+      "build": "umi build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.2.3",
+      "umi": "^1.0.0-0",
+      "umi-plugin-dva": "^0.1.5"
+    },
+    "devDependencies": {
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/houjunjie/Documents/demo/dva-template/node_modules/@babel/core'
